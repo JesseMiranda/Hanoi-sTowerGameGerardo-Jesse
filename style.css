@@ -68,8 +68,9 @@ h5{
     width: 40px;
     height: 25px;
     background: linear-gradient(to right, #024602, #013001, #012001);
-    background-color: #003300;
     border-radius: 10px;
+    margin-bottom: 0;
+    border-bottom: 0;
 }
 
 #disco_2 {

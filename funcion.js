@@ -9,7 +9,6 @@ function main() {
 }
 
 function inicio() {
-    console.log("Juego cargardo");
     var discos = document.querySelectorAll("#container> div > div");
     var soltar = document.querySelectorAll("#container > div");
 
@@ -42,11 +41,11 @@ function finalizado(e) {
     e.preventDefault();
     
         if(final1.childNodes.length === discosTotales) {
-            window.alert('HAS GANADO');
+            alert('HAS GANADO');
         }
    
         if(final2.childNodes.length === discosTotales) {
-            window.alert('HAS GANADO');
+            alert('HAS GANADO');
         }  
     
 }
