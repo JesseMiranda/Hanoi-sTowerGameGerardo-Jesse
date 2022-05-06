@@ -1,0 +1,101 @@
+html,
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #FAE5D3 ;
+}
+
+#header{
+    width: 100%;
+    height: 125px;
+    position: absolute;
+    background: linear-gradient(to right, #bd9a65, #bd9a65, #bd9a65);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 6px 6px 6px rgb(119, 114, 114);
+    font: oblique bold 180% cursive;
+    line-height: 20%;
+}
+
+h5{
+    font-size: 70%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-54%) translateY(25%);
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+#container > div {
+    width: 20px;
+    height: 250px;
+    margin-left: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    left: 100%;
+    right: 100%;
+}
+
+#base {
+    width: 900px;
+    height: 35px;
+    /* background: linear-gradient(to right, #a3874a, #aa8431, #aa8026); */
+    background: linear-gradient(to right, #c59d61, #9e6209, #bb9358);
+    box-shadow: 6px 6px 6px rgb(109, 106, 106);
+    border-radius: 9px;
+    margin-left: 125px;
+}
+
+#a, #b, #c{
+    /* background: linear-gradient(to right, #a3874a, #aa8431, #aa8026); */
+    background: linear-gradient(to right, #d7b889, #b27315, #966f33);
+    border-radius: 10px 10px 0 0;
+}
+
+#disco_1 {
+    width: 40px;
+    height: 25px;
+    background: linear-gradient(to right, #024602, #013001, #012001);
+    background-color: #003300;
+    border-radius: 10px;
+}
+
+#disco_2 {
+    width: 80px;
+    height: 25px;
+    background: linear-gradient(to right, #014674, #003c64, #002238);
+    border-radius: 10px;
+}
+
+#disco_3 {
+    width: 120px;
+    height: 25px;
+    background: linear-gradient(to right, #5a0d5a, #380238, #220022);
+    border-radius: 10px;
+}
+
+#disco_4 {
+    width: 160px;
+    height: 25px;
+    background: linear-gradient(to right, #f56a48, #f53707, #c7330e);
+    border-radius: 10px;
+}
+
+#disco_5 {
+    width: 200px;
+    height: 25px;
+    background: linear-gradient(to right, #f04949, #b31111, #aa0707);
+    border-radius: 10px;
+}
