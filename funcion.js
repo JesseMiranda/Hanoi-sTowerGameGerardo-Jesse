@@ -35,20 +35,6 @@ function arrastradoInicial(e) {
     }
 
 }
-function finalizado(e) {
-    var final1 = document.getElementById("b");
-    var final2 = document.getElementById("c");
-    e.preventDefault();
-    
-        if(final1.childNodes.length === discosTotales) {
-            alert('HAS GANADO');
-        }
-   
-        if(final2.childNodes.length === discosTotales) {
-            alert('HAS GANADO');
-        }  
-    
-}
 
 function dropFinal(e) {
     e.preventDefault();
@@ -65,7 +51,8 @@ function dropFinal(e) {
         puntero.innerHTML = '<div id="'+item+'" draggable="true"></div>' + puntero.innerHTML;
     }
     else{
-        alert("NO SE PUEDE HACER ESTE MOVIMIENTO");
+        alert('ERROR, EL TIPO DE MOVIMIENTO NO ESTA PERMITIDO');
+
     }
     inicio();
 }
@@ -87,5 +74,18 @@ function cortaCompa(primero, segundo) {
     }
     return base;
 }
-// setTimeout(main, 2000);
+
+function finalizado(e) {
+    var final1 = document.getElementById("b");
+    var final2 = document.getElementById("c");
+    e.preventDefault();
+    
+        if(final1.childNodes.length === discosTotales) {
+            alert('HAS GANADO');
+        }
+   
+        if(final2.childNodes.length === discosTotales) {
+            alert('HAS GANADO');
+        }
+}
 window.addEventListener("load", main, false);
